@@ -4,3 +4,5 @@ package.json
 .vscode
 .idea
 .env
+# Bỏ qua thư mục vendor
+src/public/vendor/

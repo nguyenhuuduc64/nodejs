@@ -21,8 +21,15 @@
     <thead>
       <tr>
         <th scope='col'>#</th>
-        <th scope='col'>Tên khóa học</th>
-        <th scope='col'>Ngày tạo</th>
+        <th scope='col'>Tên khóa học 
+          {{{sortable 'name' _sort}}}
+         
+
+        </th>
+        <th scope='col'>Ngày tạo
+          {{{sortable 'createdAt' _sort}}}
+
+        </th>
       </tr>
     </thead>
     <tbody>
